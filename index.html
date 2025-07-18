@@ -1,91 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header class="hadder-wrapper">
-        <div class="width-80 header-container">
-            <h1><a href="#home">Uhai Mong</a></h1>
-            <nav>
-                <ul class="menu-items">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#resume">Download Resume</a></li>
-                </ul>
-            </nav>
-
-        </div>
+      <div class="width-80 header-container">
+        <h1><a href="#home">Uhai Mong</a></h1>
+        <nav>
+          <ul class="menu-items">
+            <li><a href="#about_develoment">About</a></li>
+            <li><a href="#fundamentalOfWeb">Skiils</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Download Resume</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section id="banner">
-            <div class="banner-image">
-                <img src="./assets/Hero-bg.png" alt="Banner Image">
+      <section id="banner">
+        <div class="banner-image">
+          <img src="./assets/Hero-bg.png" alt="Banner Image" />
+        </div>
+        <div class="banner-content width-80">
+          <img
+            src="./assets/Group.png"
+            alt="Profile Image"
+            class="profile-image"
+          />
+          <h2>
+            I know how it feels to use your creative juices to perfect a piece
+            of code
+          </h2>
+          <p>
+            Being a web developer is always difficult. It's a creative job, but
+            one where usually you aren't the primary stakeholder.
+          </p>
+          <button id="contact-button"><a href="#contact">Contact Me</a></button>
+        </div>
+      </section>
+      <section id="about_develoment" class="width-80">
+        <div class="dev_content">
+          <h2>Why Web Development?</h2>
+          <p>
+            Web development is a fast-paced and challenging career, centered on
+            creative problem-solving and continuous innovation. As a web
+            developer you'll work with a multidisciplinary team of designers,
+            other developers, and marketers to realize your projects.
+          </p>
+        </div>
+        <div class="about-coding">
+          <div class="coding-content">
+            <h2>Coding Can Change the World</h2>
+            <p>
+              Build apps that solve simple problems Build apps that provide
+              entertainment Build solutions that solve global problems
+              Algorithms that make processes more efficient Programs that
+              analyze data and discover trends Software that makes automation
+              possible Write programs that work with hardware Write software
+              that contributes to advancements in biotechnology.
+            </p>
+            <button class="learn-more">
+              <a
+                href="https://www.geeksforgeeks.org/blogs/how-programming-languages-are-changing-the-world/"
+                target="_blank"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="coding-image">
+            <img src="./assets/Layer_1.png" alt="Coding Image" />
+          </div>
+        </div>
+      </section>
+      <section id="segments" class="segments width-80">
+        <img src="./assets/Group 3.png" alt="Segments Image" />
+        <div class="segment-content">
+          <h2>I will help you to create Modern Web System</h2>
+          <p>
+            With a focus on user experience and performance, I develop modern
+            web systems that are scalable, maintainable, and tailored to your
+            needs.
+          </p>
+          <button class="learn-more">
+            <a
+              href="https://acropolium.com/blog/modern-web-app-architecture/"
+              target="_blank"
+              >Learn More</a
+            >
+          </button>
+        </div>
+      </section>
+      <section id="segments2" class="segments2 width-80">
+        <img src="./assets/Group 4.png" alt="Segments Image" />
+        <div class="segment-content">
+          <h2>Coding can change the world</h2>
+          <p>
+            From the software that powers our smartphones to the algorithms that
+            shape our online experiences, coding has revolutionized the way we
+            interact, communicate, and navigate the world.
+          </p>
+          <button class="learn-more">
+            <a
+              href="https://www.nextacademy.com/blog/12-ways-can-change-world-code/"
+              target="_blank"
+              >Learn More</a
+            >
+          </button>
+        </div>
+      </section>
+      <section id="inspiration" class="width-80 inspiration-section">
+        <h2>My Inspiration</h2>
+        <p>
+          I draw inspiration from various sources, including nature, technology,
+          and the ever-evolving world of web development. The ability to create
+          something impactful and user-friendly drives my passion for coding.
+        </p>
+        <iframe
+          width="100%"
+          height="600"
+          src="https://www.youtube.com/embed/pCtkD5AMbDo?si=v61S1DxXNLrP1VhO"
+          title="Trailer of Free code camp"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- web fundamentals -->
+      <section id="fundamentalOfWeb" class="width-80 fundamentalOfWeb">
+        <h2>Fundamentals of Web Development</h2>
+        <p>
+          Understanding the core principles of web development is essential for
+          creating effective and engaging online experiences. This includes
+          knowledge of HTML, CSS, JavaScript, and responsive design.
+        </p>
+        <div class="fundamental-content-wrapper">
+          <div class="fundamental-content">
+            <img src="./assets/html.png" alt="Fundamentals Image" />
+            <h3>HTML</h3>
+            <p>
+              HTML (HyperText Markup Language) is the standard markup language
+              for creating web pages. It provides the structure and content of a
+              web page.
+            </p>
+            <button class="f-learn-more">
+              <a href="https://web.dev/html" target="_blank">Learn More</a>
+            </button>
+          </div>
+          <div class="fundamental-content">
+            <img src="./assets/css.png" alt="Fundamentals Image" />
+            <h3>CSS</h3>
+            <p>
+              CSS (Cascading Style Sheets) is used to style and layout web
+              pages, controlling the appearance of elements such as colors,
+              fonts, and spacing.
+            </p>
+            <button class="f-learn-more">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                >Learn More</a
+              >
+            </button>
+          </div>
+          <div class="fundamental-content">
+            <img src="./assets/js.png" alt="Fundamentals Image" />
+            <h3>JavaScript</h3>
+            <p>
+              JavaScript is a programming language that enables interactive and
+              dynamic content on web pages, allowing developers to create
+              responsive user interfaces.
+            </p>
+            <button class="f-learn-more">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                >Learn More</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section id="skills" class="skills width-80">
+        <h2>Strongly knowledge I have</h2>
+        <p>
+          I am skilled in React for building interactive UIs, Node.js for
+          server-side development, MongoDB for flexible NoSQL data storage, and
+          Express.js for creating robust APIs and web applications.
+        </p>
+        <div class="skills-content-wrapper">
+          <div class="skill-items">
+            <img src="./assets/react.png" alt="React" />
+            <div class="skill-content">
+              <h3>React</h3>
+              <p>
+                A JavaScript library for building user interfaces, allowing for
+                the creation of dynamic and responsive web applications.
+              </p>
+              <button class="f-learn-more">
+                <a href="https://react.dev/learn" target="_blank">Learn More</a>
+              </button>
             </div>
-            <div class="banner-content width-80">
-                <img src="./assets/Group.png" alt="Profile Image" class="profile-image">
-                <h2>I know how it feels to use your creative juices to perfect a piece of code</h2>
-            <p>Being a web developer is always difficult. It's a creative job, but one where usually you aren't the primary stakeholder.</p>
-            <button id="contact-button"><a href="#contact">Contact Me</a></button>
-</div>
-        </section>
-        <section id="about_develoment" class="width-80">
-            <div class="dev_content">
-                <h2>Why Web Development?</h2>
-                <p>Web development is a fast-paced and challenging career, centered on creative problem-solving and continuous innovation. As a web developer you’ll work with a multidisciplinary team of designers, other developers, and marketers to realize your projects.</p>
+          </div>
+          <div class="skill-items">
+            <img src="./assets/nodejs.png" alt="Node.js" />
+            <div class="skill-content">
+              <h3>Node.js</h3>
+              <p>
+                A JavaScript runtime built on Chrome's V8 engine, enabling
+                server-side scripting and building scalable network
+                applications.
+              </p>
+              <button class="f-learn-more">
+                <a href="https://nodejs.org/api/all.html" target="_blank"
+                  >Learn More</a
+                >
+              </button>
             </div>
-            <div class="about-coding">
-                <div class="coding-content">
-                    <h2>Coding Can Change the World</h2>
-                    <p>Build apps that solve simple problems
-Build apps that provide entertainment
-Build solutions that solve global problems
-Algorithms that make processes more efficient
-Programs that analyze data and discover trends
-Software that makes automation possible
-Write programs that work with hardware
-Write software that contributes to advancements in biotechnology.</p>
-<button class="learn-more">Learn More</button>
-                </div>
-                <div class="coding-image">
-                    <img src="./assets/Layer_1.png" alt="Coding Image">
-                </div>
+          </div>
+          <div class="skill-items">
+            <img src="./assets/mongodb.png" alt="MongoDB" />
+            <div class="skill-content">
+              <h3>MongoDB</h3>
+              <p>
+                A NoSQL database that uses a flexible document-oriented data
+                model, ideal for handling large volumes of unstructured data.
+              </p>
+              <button class="f-learn-more">
+                <a
+                  href="https://www.mongodb.com/docs/?msockid=02563d0a44996c8104b628c145986db3"
+                  target="_blank"
+                  >Learn More</a
+                >
+              </button>
             </div>
-        </section>
-<section id="segments" class="segments width-80">
-            <img src="./assets/Group 3.png" alt="Segments Image">
-            <div class="segment-content">
-<h2>I will help you to create Modern Web System</h2>
-<p>With a focus on user experience and performance, I develop modern web systems that are scalable, maintainable, and tailored to your needs.</p>
-<button class="learn-more">Learn More</button>
+          </div>
+          <div class="skill-items">
+            <img src="./assets/js.png" alt="Express.js" />
+            <div class="skill-content">
+              <h3>Express.js</h3>
+              <p>
+                A minimal and flexible Node.js web application framework that
+                provides a robust set of features for building web and mobile
+                applications.
+              </p>
+              <button class="f-learn-more">
+                <a href="https://devdocs.io/express/" target="_blank"
+                  >Learn More</a
+                >
+              </button>
             </div>
-        </section>
-        
-        <section id="projects" class="width-80">
-            <h2>Projects</h2>
-            <ul class="project-list">
-                <li><a href="#">Project 1: Portfolio Website</a></li>
-                <li><a href="#">Project 2: E-commerce Platform</a></li>
-                <li><a href="#">Project 3: Blogging Platform</a></li>
-            </ul>
-        </section>
-        <section id="resume" class="width-80">
-            <h2>Download Resume</h2>
-            <button><a href="./assets/Resume.pdf" download>Download Resume</a></button>
-
-</section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="width-80 contact-section">
+        <img src="./assets/handshake.jpg" alt="Contact for help" />
+        <form action="" class="contact-form">
+          <h2>I need contact with you</h2>
+          <p>
+            If you have any questions or inquiries, feel free to reach out to
+            me!
+          </p>
+          <input type="email" placeholder="Your Email Enter Here" />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Your Name</p>
+      <div class="width-80 footer-content">
+        <p>&copy; 2023 Uhai Mong. All rights reserved.</p>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/uhaimong.bd/" target="_blank"
+              ><img src="./assets/facebook.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://bd.linkedin.com/in/uhai-mong" target="_blank"
+              ><img src="./assets/linkedin-icon 1.png" alt="LinkedIn"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Uhaimong" target="_blank"
+              ><img src="./assets/github.png" alt="GitHub"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- scroll to top -->
+      <a class="scroll-to-top" href="#"
+        ><img src="./assets/top.png" alt="scroll to top"
+      /></a>
     </footer>
-</body>
+  </body>
 </html>
